@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+.navbar {
+    background-color: lightskyblue;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+.card-header {
+    background-color: rgb(20, 72, 104);
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+    border-radius: 10px;
+    display: block;
+    vertical-align: top;
+}
+.card-header{
+    display: inline-block;
+}
+.card-header h4 {
+    color: yellow
+}
+
+.card-header h2{
+    color: aliceblue;
+}
+
+.card-header p{
+    color: aliceblue;
+}
+
+#dltbtn {
+    background-color: yellow;
+    color: black;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+#btn2 {
+    background-color: yellow;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#btn2:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+#dltbtn:hover {
+    background-color: red;
+}
+
+.popup-overlay {
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.popup-box {
+    background-color: aliceblue;
+    width: 40%;
+    padding: 40px;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    border-radius: 20px;
+    display: none;
+}
+
+.popup-box input {
+    background: transparent;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.popup-box textarea {
+    background: transparent;
+    width: 100%;
+    font-size: 20px;
+    border: solid black 2px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.popup-box input:focus {
+    outline: none;
+}
+
+.popup-box textarea:focus {
+    outline: none;
+}
+
+#add-book {
+    background-color: black;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#cancel-popup {
+    background-color: black;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#add-book:hover {
+    background-color: green;
+}
+
+#cancel-popup:hover {
+    background-color: red;
+}
